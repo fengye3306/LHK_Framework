@@ -1,0 +1,9 @@
+[submodule "external-library"]
+	path = external-library
+	url = git@github.com:fengye3306/nodeeditor.git
+[submodule "3rdparty/nodeeditor"]
+	path = 3rdparty/nodeeditor
+	url = git@github.com:fengye3306/nodeeditor.git
+[submodule "3rdparty/CloudCompare"]
+	path = 3rdparty/CloudCompare
+	url = git@github.com:fengye3306/CloudCompare.git

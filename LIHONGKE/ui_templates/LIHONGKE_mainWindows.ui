@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LIHONGKE_mainWindows</class>
+ <widget class="QMainWindow" name="LIHONGKE_mainWindows">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>733</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>LIHONGKE_mainWindows</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabMain">
+      <property name="focusPolicy">
+       <enum>Qt::TabFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_Flower">
+       <attribute name="title">
+        <string>流程</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_view">
+       <attribute name="title">
+        <string>视图</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Noto Serif CJK JP Light</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="font">
+     <font>
+      <family>Noto Serif CJK JP</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_save"/>
+    <addaction name="action_load"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="font">
+     <font>
+      <family>Noto Serif CJK JP</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>视图</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="font">
+     <font>
+      <family>Noto Serif CJK JP</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>辅助功能</string>
+    </property>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+    <addaction name="action_IP"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="font">
+     <font>
+      <family>Noto Serif CJK JP</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>执行</string>
+    </property>
+    <addaction name="action_5"/>
+    <addaction name="action_6"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>新建工程</string>
+   </property>
+  </action>
+  <action name="action_save">
+   <property name="text">
+    <string>保存工程</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>版本升级</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>插件安装</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>单次执行</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>循环执行/退出</string>
+   </property>
+  </action>
+  <action name="action_load">
+   <property name="text">
+    <string>读取工程</string>
+   </property>
+  </action>
+  <action name="action_IP">
+   <property name="text">
+    <string>IP配置</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
