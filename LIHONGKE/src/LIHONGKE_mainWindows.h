@@ -8,6 +8,16 @@ namespace Ui {
 class LIHONGKE_mainWindows;
 }
 
+/**
+ * 主工程
+ * 
+ * * 新建工程
+ * * 读取工程
+ * * 保存工程
+ * 
+ * - 流程区块
+ * - 工作视图区块
+ */
 class LIHONGKE_mainWindows : public QMainWindow
 {
     Q_OBJECT
@@ -18,10 +28,12 @@ public:
     
     // 新建工程 
     void createProject();
+
     // 保存工程
-    bool save();
+    bool saveProject();
+    
     // 读取工程
-    bool load();
+    bool loadProject();
 
 private:
 
