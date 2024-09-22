@@ -33,8 +33,6 @@ endif()
 # 测试
 option( BUILD_TESTING "Build tests" OFF )
 
-
-add_subdirectory( ./libs )	   # 库
+add_subdirectory( ./libs )	   	 # 库
 add_subdirectory( ./LIHONGKE )   # 主工程
-
 
